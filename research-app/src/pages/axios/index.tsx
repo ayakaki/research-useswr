@@ -1,8 +1,8 @@
 import type { NextPage } from 'next';
 import useSWR from 'swr';
 import { Base } from '../../components/axios/base';
-import { Address } from '../../components/axios/Address';
 import { useTodos } from '../../repositories/useTodos';
+import { Address } from '../../components/axios/address';
 
 const AxiosPage: NextPage = () => {
   const { data, error, isLoading } = useTodos();

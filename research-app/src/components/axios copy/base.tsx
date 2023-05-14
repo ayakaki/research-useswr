@@ -1,7 +1,7 @@
-import { useUserAxios } from '../../repositories/useUserAxios';
+import { useUser } from '../../repositories/useUserAxios';
 
 export const Base: React.FC = () => {
-  const { data, error, isLoading } = useUserAxios(`1`);
+  const { data, error, isLoading } = useUser(`1`);
 
   return (
     <>
