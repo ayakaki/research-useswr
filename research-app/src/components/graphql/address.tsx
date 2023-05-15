@@ -19,7 +19,6 @@ export const Address: React.FC = () => {
       <h2>住所情報</h2>
       <ul>
         <li>number: {data?.users[0].address.number}</li>
-        <li>city: {data?.users[0].city}</li>
       </ul>
     </>
   );

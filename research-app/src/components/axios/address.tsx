@@ -8,7 +8,6 @@ export const Address: React.FC = () => {
       <h2>住所情報</h2>
       <ul>
         <li>city: {data?.address.city}</li>
-        <li>street: {data?.street}</li>
       </ul>
     </>
   );
