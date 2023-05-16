@@ -1,8 +1,7 @@
-import type { NextPage } from 'next';
-import useSWR from 'swr';
+import { Address } from '../../components/axios/address';
 import { Base } from '../../components/axios/base';
 import { useTodos } from '../../repositories/useTodos';
-import { Address } from '../../components/axios/address';
+import type { NextPage } from 'next';
 import Link from 'next/link';
 
 const AxiosPage: NextPage = () => {

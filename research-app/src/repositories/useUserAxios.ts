@@ -1,5 +1,5 @@
-import useSWR from 'swr';
 import { axiosFetcher } from '../utils/axiosFetcher';
+import useSWR from 'swr';
 
 export const useUserAxios = (id: string) => {
   const { data, error, isLoading } = useSWR(

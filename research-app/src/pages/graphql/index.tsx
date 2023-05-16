@@ -1,7 +1,7 @@
-import { NextPage } from 'next';
 import { Address } from '../../components/graphql/address';
-import { Base } from '../../components/graphql/base';
 import { AddressHoge } from '../../components/graphql/addresshoge';
+import { Base } from '../../components/graphql/base';
+import { NextPage } from 'next';
 import Link from 'next/link';
 
 const GraphqlPage: NextPage = () => {
