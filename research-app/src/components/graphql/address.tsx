@@ -1,3 +1,4 @@
+import { UserAddress } from '../../models/userAddress';
 import { useUserGraphql } from '../../repositories/useUserGraphql';
 
 export const Address: React.FC = () => {
@@ -10,7 +11,7 @@ export const Address: React.FC = () => {
     }
   }`;
 
-  const { data, error } = useUserGraphql(query);
+  const { data, error } = useUserGraphql<UserAddress>(query);
 
   console.log({ data, error });
 
